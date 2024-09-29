@@ -31,14 +31,7 @@
 						"type": "SqlDWSink",
 						"writeBehavior": "Insert"
 					},
-					"enableStaging": true,
-					"stagingSettings": {
-						"linkedServiceName": {
-							"referenceName": "datalakejose96",
-							"type": "LinkedServiceReference"
-						},
-						"path": "staging"
-					},
+					"enableStaging": false,
 					"translator": {
 						"type": "TabularTranslator",
 						"mappings": [
